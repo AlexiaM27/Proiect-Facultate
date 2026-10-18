@@ -1,8 +1,8 @@
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Nume_Pren_Lab2.Migrations
+namespace Goia_Alexia_Lab2.Migrations
 {
     /// <inheritdoc />
     public partial class Author : Migration

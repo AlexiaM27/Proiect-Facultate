@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Nume_Pren_Lab2.Models
+namespace Goia_Alexia_Lab2.Models
 {
     public class Book
     {

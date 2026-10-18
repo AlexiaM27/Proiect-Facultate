@@ -1,6 +1,6 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Nume_Pren_Lab2.Models
+namespace Goia_Alexia_Lab2.Models
 {
     public class Author
     {

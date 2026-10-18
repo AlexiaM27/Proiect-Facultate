@@ -1,7 +1,7 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Nume_Pren_Lab2.Pages
+namespace Goia_Alexia_Lab2.Pages
 {
     public class PrivacyModel : PageModel
     {
