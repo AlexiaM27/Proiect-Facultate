@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -17,10 +18,12 @@ namespace Goia_Alexia_Lab2.Models
         [DataType(DataType.Date)]
         public DateTime PublishingDate { get; set; }
         
+        public int? AuthorID { get; set; }
+        public Author? Author { get; set; }
+        
         public int? PublisherID { get; set; }
         public Publisher? Publisher { get; set; }
         
-        public int? AuthorID { get; set; }
-        public Author? Author { get; set; }
+        public ICollection<BookCategory>? BookCategories { get; set; }
     }
 }
