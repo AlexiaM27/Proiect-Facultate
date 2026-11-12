@@ -5,11 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
 using Goia_Alexia_Lab2.Data;
 using Goia_Alexia_Lab2.Models;
 
 namespace Goia_Alexia_Lab2.Pages.Books
 {
+    [Authorize(Roles = "Admin")]
     public class CreateModel : BookCategoriesPageModel
     {
         private readonly Goia_Alexia_Lab2.Data.Goia_Alexia_Lab2Context _context;
